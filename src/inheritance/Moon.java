@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Moon extends AstronomicalObject{
+public class Moon{
 	
 	private String name;
 	private String location;
