@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Star extends AstronomicalObject{
+public class Star{
 	
 	private String name;
 	private String location;
