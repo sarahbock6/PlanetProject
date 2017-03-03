@@ -1,22 +1,16 @@
 package inheritance;
 
-public class Planet{
+public class Planet extends AstronomicalObject {
     
-	private String name;
 	private String location;
-    private String light;
-    int size;
-    int weight;
+	private String light;
 
-    public Planet(String name1, String location1, String light1, int size1, int weight1)
+    public Planet(String name1, String location1, String light1, int size1, int weight1)	
 
     {
-    	super();
-        name = name1;
-        location = location1;
-        light = light1;
-        size = size1; 
-       weight = weight1;
+	super(name1, size1, weight1);
+	location = location1;
+	light = light1;
     
     }
     
