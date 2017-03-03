@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Planet extends AstronomicalObject {
+public class Planet{
     
 	private String name;
 	private String location;
