@@ -3,6 +3,7 @@ package inheritance;
 public class PlanetShelf {
 
     public static void main(String[] args) {
+	    
         Planet p1 = new Planet("Jupiter" , "Far" , "Dim" , 1532 , 10000);
         Planet p2 = new Planet("Saturn" , "Close", "Super Bright" , 623 , 10321);
         Planet p3 = new Planet("Sun" , "Super Far" , "Bright" , 1354 , 14322);
