@@ -1,23 +1,16 @@
 package inheritance;
 
-public class Moon{
+public class Moon extends AstronomicalObject {
 	
-	private String name;
 	private String location;
 	private String light;
-	int size;
-	int weight;
 	
 	public Moon(String name1, String location1, String light1, int size1, int weight1)	
 
 	{
-		
-		super();
-		name = name1;
+		super(name1, size1, weight1);
 		location = location1;
 		light = light1;
-		size = size1;
-		weight = weight1;
 		
 	}
 	
